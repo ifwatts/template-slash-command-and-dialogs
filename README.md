@@ -1,3 +1,10 @@
+# I am changing this to pull issues from GitHub and post to slack
+Phase 1: deploy app to ibm cloud kube and take tokens from kube secrets
+Phase 2: update code to accept `/squad_GIT <label>` and that will return a github issue report
+Phase 3: add `/squad_GIT createIssue <issue description>` that will create a new issue and add the correct labels (perhaps using the modal code shown in the original sample.
+
+# Original sample does the below
+
 # Slash Command and ~~Dialogs~~ Modals blueprint
 
 > :sparkles: *Updated October 2019: As we have introduced some new features, this tutorial and the code samples have been updated! All the changes from the previous version of this example, read the [DIFF.md](DIFF.md)*
